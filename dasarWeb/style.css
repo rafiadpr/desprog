@@ -1,13 +1,26 @@
-img {
-    width: 200px;
+h2 {
+  color: orange;
+  font-family: 'Trebuchet MS';
+  text-align: center;
 }
 
-/* table, th, td {
-  border: 1px solid;
-} */
+.kotak {
+  padding: 50px;
+  width: 100px;
+  color: #fff;
+  margin: 10px;
+  background: orange;
+}
 
-html,
+#kotak {
+  width: 400px;
+  color: #fff;
+  background: blue;
+  padding: 50px;
+}
+
 body {
-  height: 100%;
-  margin: 8;
+  background: url('img/tree1.jpeg'), url('img/field1.jpg');
+  background-repeat: no-repeat, repeat;
+  color: white;
 }
