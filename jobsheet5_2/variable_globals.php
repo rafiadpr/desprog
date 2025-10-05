@@ -1,11 +1,11 @@
 <?php
-    $x = 75;
-    $y = 25;
+$x = 75;
+$y = 25;
 
-    function addition() {
-        $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
-    }
+function addition()
+{
+    $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
+}
 
-    addition();
-    echo $z;
-?>
+addition();
+echo $z;
